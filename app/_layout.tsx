@@ -49,7 +49,7 @@ export default function RootLayout() {
   useEffect(() => {
     if (isReady) {
       if (!isAuthenticated) {
-        router.replace("/login");
+        router.replace("/" as any);
       } else {
         router.replace("/dashboard");
       }
