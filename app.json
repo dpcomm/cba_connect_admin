@@ -14,7 +14,8 @@
     "android": {
       "icon": "./assets/images/icon_admin_app.png",
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.cba.cba_connect_application_admin"
     },
     "web": {
       "output": "static",
@@ -38,6 +39,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c1133bdb-8c42-46e6-ba94-82b80ea38b84"
+      }
     }
   }
 }
