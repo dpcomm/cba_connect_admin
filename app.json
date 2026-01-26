@@ -4,7 +4,7 @@
     "slug": "cba_connect_admin",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon_admin_app.png",
     "scheme": "cbaconnectadmin",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -12,12 +12,7 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
-      },
+      "icon": "./assets/images/icon_admin_app.png",
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
