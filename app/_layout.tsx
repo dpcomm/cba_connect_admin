@@ -37,8 +37,8 @@ export default function RootLayout() {
         // We stay logged out.
         console.log("Auto login failed:", e);
         // Optional: Clear tokens just in case
-        await SecureStore.deleteItemAsync("access_token");
-        await SecureStore.deleteItemAsync("refresh_token");
+        // Don't delete tokens here. Let client.ts handle auth failures.
+        // If it's a network error, we want to keep the tokens.
       } finally {
         setIsReady(true);
       }

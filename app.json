@@ -2,20 +2,22 @@
   "expo": {
     "name": "CBA Connect 관리자",
     "slug": "cba_connect_admin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon_admin_app.png",
     "scheme": "cbaconnectadmin",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "2"
     },
     "android": {
       "icon": "./assets/images/icon_admin_app.png",
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.cba.cba_connect_application_admin"
+      "package": "com.cba.cba_connect_application_admin",
+      "versionCode": 2
     },
     "web": {
       "output": "static",
