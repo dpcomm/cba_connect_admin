@@ -43,3 +43,6 @@ app-example
 /android
 
 /cba_connect
+# builds
+*.apk
+*.aab

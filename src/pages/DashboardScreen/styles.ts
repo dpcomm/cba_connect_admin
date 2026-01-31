@@ -42,4 +42,26 @@ export const styles = StyleSheet.create({
     marginTop: Layout.spacing.xs,
     textAlign: "center",
   },
+  // Info Badge Styles
+  infoBadgeContainer: {
+    paddingHorizontal: Layout.spacing.l,
+    paddingTop: Layout.spacing.s,
+  },
+  infoBadge: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: Layout.spacing.xs,
+    backgroundColor: Color.primary.hover + "40", // Subtle transparent purple
+    paddingVertical: Layout.spacing.xs + 2,
+    paddingHorizontal: Layout.spacing.m,
+    borderRadius: Layout.radius.m,
+    borderWidth: 1,
+    borderColor: Color.primary.main + "30",
+  },
+  infoBadgeText: {
+    ...Font.text4,
+    color: Color.primary.pressed,
+    fontWeight: "500",
+  },
 });
